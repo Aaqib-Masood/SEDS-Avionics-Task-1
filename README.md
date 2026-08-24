@@ -6,5 +6,3 @@ Raw data uses the original cvs file and properly plots it in a window.
 It first extracts the data from the cvs file and converts it into a more easily computable format. Then for each point, it takes a rolling median of the 5 nearest points to avoid outliers and decides whether it is corrupted data by creating a baseline from the Median of Absolute Differences (MAD).
 Then removing and interpolates the outliers and data that could not be converted to numbers.
 Finally smoothing out the curve by taking a rolling mean for every point.
-
-Both of these codes are mostly AI-generated, but they are not directly copy-pasted from the source, and I learned the gist of the code behind it as a reverse learning process.
