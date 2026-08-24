@@ -208,7 +208,7 @@ animation = FuncAnimation(
     fig,
     update,
     frames=len(time),
-    interval=10,       # 1000 ms = 1 second
+    interval=1000,
     blit=False,
     repeat=False
 )
